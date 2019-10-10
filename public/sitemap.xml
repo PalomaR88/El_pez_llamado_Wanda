@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/ejercicio/ejercicios/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/sitios_web/servidor_web_parte2_apache2/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/vagrant/2.vagrant/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</loc>
+    <lastmod>2018-12-17T22:21:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/#apache2/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/aplicaciones_web/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/asir/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vagrant/</loc>
+    <lastmod>2019-10-03T22:21:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

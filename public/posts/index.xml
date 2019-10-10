@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Un pez llamado Wanda</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Un pez llamado Wanda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Oct 2019 22:21:42 +0100</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creación de un sitio web estático</title>
+      <link>/posts/ejercicio/ejercicios/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/ejercicio/ejercicios/</guid>
+      <description>Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.  Surge - Hugo
+ Comenta la instalación del generador de página estática. Recuerda que el generador tienes que instalarlo en tu entorno de desarrollo. Indica el lenguaje en el que está desarrollado y el sistema de plantillas que utiliza. (1 punto)  HUGO: Lenguaje: JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Sitio web</title>
+      <link>/posts/sitios_web/servidor_web_parte2_apache2/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/sitios_web/servidor_web_parte2_apache2/</guid>
+      <description>El servidor web sabe la página web que te tiene que dar por la dirección que se pide. En la cabecera aparece esta dirección, y se llama host.
+Por defecto, cuando instalamos apache, tiene un sitio por defecto que se llama default. con un Document Root configurado, que será /var/www/html. En principio solo tiene un nombre, luego el Name Server no existe, en principio, cuando tenga más de uno se configura el nombre del servidor para identificar cada sitio.</description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>/posts/vagrant/2.vagrant/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/vagrant/2.vagrant/</guid>
+      <description>Página oficial de Vagrant
+Instalación de Vagrant (desarrollo de escenarios de forma fácil) $ vagrant box add debian/buster64  Por qué usar Vagrant: Por que es fácil, para automatizarlo.
+Qué se puede hacer:  Crear máquinas virtuales y contenedores. Configurar redes. Configurar la máquina Aprovisionamiento de la máquina  Imágenes de los sistemas operativos: Las imágenes en Vagrant se llaman BOX y lo que hace la aplicación es copiarlas. Existen repositorios de imágenes y es recomendable usar las imágenes oficiales.</description>
+    </item>
+    
+    <item>
+      <title>Gestión de almacenamiento</title>
+      <link>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</guid>
+      <description>Al diseñar una política de almacenamiento de la información hay que tener en cuenta el rendimiento, disponibilidad y accesibilidad.
+Almacenamientos secundarios:  Sist magnéticos Sist ópticos Sist de almacenamiento sólido  En la nube: Estos tipos están creciendo. Ventajas: actualización a tiempo real, acceso en cualquier lugar y bajos costes. Inconvenientes: seguridad y dependencia.
+Almacenamiento redundante, RAID: Conjunto de discos entre los que se distribuyen o se replican datos. Ventajas:</description>
+    </item>
+    
+  </channel>
+</rss>

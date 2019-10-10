@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aplicaciones_web on Un pez llamado Wanda</title>
+    <link>/tags/aplicaciones_web/</link>
+    <description>Recent content in Aplicaciones_web on Un pez llamado Wanda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Oct 2019 22:21:42 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/aplicaciones_web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creación de un sitio web estático</title>
+      <link>/posts/ejercicio/ejercicios/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/ejercicio/ejercicios/</guid>
+      <description>Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.  Surge - Hugo
+ Comenta la instalación del generador de página estática. Recuerda que el generador tienes que instalarlo en tu entorno de desarrollo. Indica el lenguaje en el que está desarrollado y el sistema de plantillas que utiliza. (1 punto)  HUGO: Lenguaje: JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Gestión de almacenamiento</title>
+      <link>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</guid>
+      <description>Al diseñar una política de almacenamiento de la información hay que tener en cuenta el rendimiento, disponibilidad y accesibilidad.
+Almacenamientos secundarios:  Sist magnéticos Sist ópticos Sist de almacenamiento sólido  En la nube: Estos tipos están creciendo. Ventajas: actualización a tiempo real, acceso en cualquier lugar y bajos costes. Inconvenientes: seguridad y dependencia.
+Almacenamiento redundante, RAID: Conjunto de discos entre los que se distribuyen o se replican datos. Ventajas:</description>
+    </item>
+    
+  </channel>
+</rss>

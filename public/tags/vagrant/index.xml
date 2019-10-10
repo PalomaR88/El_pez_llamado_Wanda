@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vagrant on Un pez llamado Wanda</title>
+    <link>/tags/vagrant/</link>
+    <description>Recent content in Vagrant on Un pez llamado Wanda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Oct 2019 22:21:42 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vagrant</title>
+      <link>/posts/vagrant/2.vagrant/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/vagrant/2.vagrant/</guid>
+      <description>Página oficial de Vagrant
+Instalación de Vagrant (desarrollo de escenarios de forma fácil) $ vagrant box add debian/buster64  Por qué usar Vagrant: Por que es fácil, para automatizarlo.
+Qué se puede hacer:  Crear máquinas virtuales y contenedores. Configurar redes. Configurar la máquina Aprovisionamiento de la máquina  Imágenes de los sistemas operativos: Las imágenes en Vagrant se llaman BOX y lo que hace la aplicación es copiarlas. Existen repositorios de imágenes y es recomendable usar las imágenes oficiales.</description>
+    </item>
+    
+  </channel>
+</rss>

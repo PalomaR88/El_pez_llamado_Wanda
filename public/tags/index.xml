@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Un pez llamado Wanda</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Un pez llamado Wanda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Oct 2019 22:21:42 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#Apache2</title>
+      <link>/tags/#apache2/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/tags/#apache2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aplicaciones_web</title>
+      <link>/tags/aplicaciones_web/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/tags/aplicaciones_web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asir</title>
+      <link>/tags/asir/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/tags/asir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>/tags/vagrant/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/tags/vagrant/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

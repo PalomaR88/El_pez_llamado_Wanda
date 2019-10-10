@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, noarchive" />
+	<title>Un pez llamado Wanda - Vagrant</title>
+	<link rel="icon" href="/favicon.ico" />
+	<meta name="description" content="Proyecto creado para la asignatura Implantación de Aplicaciones Web en el curso Administración de Sistemas Informaticos en Red" />
+
+	<meta name="generator" content="Hugo 0.54.0" />
+
+	
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Vagrant"/>
+<meta name="twitter:description" content="Herramienta para la creación de máquinas virtuales"/>
+
+	<meta property="og:title" content="Vagrant" />
+<meta property="og:description" content="Herramienta para la creación de máquinas virtuales" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/vagrant/2.vagrant/" />
+<meta property="article:published_time" content="2019-10-03T22:21:42&#43;01:00"/>
+<meta property="article:modified_time" content="2019-10-03T22:21:42&#43;01:00"/>
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/bundle.min.css">
+</head>
+<body><header class="header">
+    <div class="header__title">
+        <a href="/" class="header__title__link" alt="Home">
+            
+            Un pez llamado Wanda
+            
+        </a>
+    </div>
+
+    <nav class="menu" aria-label="menu">
+    <ul class="menu__items" aria-label="menu">
+        
+        
+        <li class="menu__items__item" aria-label="Home">
+            <a href="/" class="menu__items__item__link "
+                alt="Home" role="menuitem">
+                Home
+            </a>
+        </li>
+        
+        <li class="menu__items__item" aria-label="Contact">
+            <a href="/contact/" class="menu__items__item__link "
+                alt="Contact" role="menuitem">
+                Contact
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+    <nav class="hamburger-menu" aria-label="mobile-menu">
+    <div class="toggle">
+        <input type="checkbox" class="hamburger__toggle" id="hamburgerToggle" name="hamburger toggle" aria-label="Hamburguer menu">
+        <label class="hamburger__toggle__icon" for="hamburgerToggle">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="hamburger__items" aria-label="mobile-menu">
+            
+            <li class="hamburger__items__item" aria-label="Home">
+                <a href="/" class="hamburger__items__item__link" alt="Home" role="menuitem">
+                    Home
+                </a>
+            </li>
+            
+            <li class="hamburger__items__item" aria-label="Contact">
+                <a href="/contact/" class="hamburger__items__item__link" alt="Contact" role="menuitem">
+                    Contact
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+</header>
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">Vagrant</h1>
+        
+        <p class="post__subtitle">Herramienta para la creación de máquinas virtuales</p>
+        
+        
+        
+        <p class="post__date date">
+            Thursday, Oct, 2019 By Paloma R. García.
+        </p>
+        
+        
+    </header>
+
+    
+    <main class="post__body">
+        
+
+<p><a href="https://www.vagrantup.com/" title="Página oficial de Vagrant">Página oficial de Vagrant</a></p>
+
+<p><img src="https://miro.medium.com/max/1538/1*BlM3oiqN0VcY_moeznlsyg.png" alt="vagrant" /></p>
+
+<h3 id="instalación-de-vagrant-desarrollo-de-escenarios-de-forma-fácil">Instalación de Vagrant (desarrollo de escenarios de forma fácil)</h3>
+
+<pre><code>$ vagrant box add debian/buster64
+</code></pre>
+
+<h3 id="por-qué-usar-vagrant">Por qué usar Vagrant:</h3>
+
+<p>Por que es fácil, para automatizarlo.</p>
+
+<h3 id="qué-se-puede-hacer">Qué se puede hacer:</h3>
+
+<ul>
+<li>Crear máquinas virtuales y contenedores.</li>
+<li>Configurar redes.</li>
+<li>Configurar la máquina</li>
+<li>Aprovisionamiento de la máquina</li>
+</ul>
+
+<h3 id="imágenes-de-los-sistemas-operativos">Imágenes de los sistemas operativos:</h3>
+
+<p>Las imágenes en Vagrant se llaman BOX y lo que hace la aplicación es copiarlas. Existen repositorios de imágenes y es recomendable usar las imágenes oficiales.</p>
+
+<p><strong>Descargar imagen desde el repositorio oficial:</strong></p>
+
+<pre><code>$ vagrant box add debian/buster64
+</code></pre>
+
+<p><strong>Listar box:</strong></p>
+
+<pre><code>$ vagrant box list
+</code></pre>
+
+<p><strong>Ubicación de los box:</strong></p>
+
+<pre><code>$ ls .vagrant.d/boxes/debian-VAGRANTSLASH-buster64/10.0.0/virtualbox/
+box.ovf  buster.vmdk  metadata.json  Vagrantfile
+</code></pre>
+
+<h3 id="creación-de-una-máquina-virtual">Creación de una máquina virtual:</h3>
+
+<ol>
+<li><p>Crear un directorio y un fichero Vagrantfile:</p>
+
+<pre><code>$ vagrant init
+</code></pre></li>
+
+<li><p>Modificar el fichero Vagrantfile:</p>
+
+<pre><code>Vagrant.configure(&quot;2&quot;) do |config|
+	config.vm.box = &quot;debian/buster64&quot;
+	config.vm.hostname=&quot;escenario1&quot;
+end
+</code></pre></li>
+
+<li><p>Levantar la máquina:</p>
+
+<pre><code>$ vagrant up
+</code></pre></li>
+
+<li><p>Acceder a la instancia:</p>
+
+<pre><code>$ vagrant ssh
+</code></pre></li>
+</ol>
+
+<h3 id="características-de-las-máquinas">Características de las máquinas:</h3>
+
+<ul>
+<li>Va a tener dos usuarios: root y vagrant.</li>
+<li>Tiene una red NAT por defecto eth0 compartida con virtualbox.</li>
+<li><strong>vagrant ssh</strong> es lo mismo que hacer <strong>ssh -i privad -p2222 vagrant@localhost</strong>. Esto funciona por una regla de NAT que proporciona virtualbox. En la configuración de las redes de Virtualbox se pueden cambiar estas reglas. Por ejemplo, si le indicamos que al acceder a la &ldquo;ip pública&rdquo; accedamos al servicio web por TCP, es decir, por el puerto 8080 se llega al 80.</li>
+<li>Es recomendable instalar <strong>rsync</strong> (se instala automáticamente) para sincronizar con el directorio de la máquina Vagrantfile/ con el correspondiente directorio de la máquina anfitrión.</li>
+</ul>
+
+<h3 id="suspender-apagar-o-destruir">Suspender, apagar o destruir:</h3>
+
+<pre><code> :~/vagrant$ vagrant suspend
+ :~/vagrant$ vagrant halt
+ :~/vagrant$ vagrant destroy
+</code></pre>
+
+    </main>
+    
+
+    
+    <footer class="post__footer">
+        
+<ul class="tags">
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/vagrant/" class="tag__link" alt="vagrant.">
+            #vagrant
+        </a>
+    </li>
+    
+</ul>
+
+
+    </footer>
+    
+</article>
+<footer class="footer">
+    
+    
+    
+
+    
+    <div class="footer__social">
+        
+        
+        
+        
+        
+        
+        <a href="https://github.com/PalomaR88" class="footer__social__link" alt="github" target="_blank" aria-label="https://github.com/PalomaR88" rel="noopener">
+            <span>
+                <i class="fab fa-github"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/maizymantequiya" class="footer__social__link" alt="twitter" target="_blank" aria-label="https://twitter.com/maizymantequiya" rel="noopener">
+            <span>
+                <i class="fab fa-twitter"></i>
+            </span>
+        </a>
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
+
+    <address class="footer__contact">
+        
+        <p class="footer__contact__item">
+            <span><i class="far fa-envelope"></i></span>
+            <a href="mailto:palomagarciacampon08@gmail.com" class="footer__contact__link" alt="Email">
+                palomagarciacampon08@gmail.com
+            </a>
+        </p>
+        
+
+        
+
+        
+
+        
+        <p class="footer__contact__item">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            IES Gonzalo Nazareno. C/ Las botijas. Dos Hermanas (Sevilla)
+        </p>
+        
+    </address>
+
+    <div class="copy">
+        
+        <p>© 2019 - Un pez llamado Wanda</p>
+        
+    </div>
+
+    
+
+
+
+
+<script src="/js/bundle.min.9aa161734d8d364fbafdf8ee2def390bf097c69464c1561c1b8e7eb8768017fe67cf60902c99bc1c798215f71c0e4a3c7eabc215d0149fe64c91764fc445f5d6.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script
+	defer
+	src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5&#43;&#43;eIfzYmTgBBmXYdhvxPc&#43;XcFEk&#43;zJwDgWbP"
+	crossorigin="anonymous"
+></script>
+
+
+</footer></body>
+
+</html>

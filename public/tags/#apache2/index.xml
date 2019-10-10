@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#Apache2 on Un pez llamado Wanda</title>
+    <link>/tags/#apache2/</link>
+    <description>Recent content in #Apache2 on Un pez llamado Wanda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Oct 2019 22:21:42 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/#apache2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sitio web</title>
+      <link>/posts/sitios_web/servidor_web_parte2_apache2/</link>
+      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/sitios_web/servidor_web_parte2_apache2/</guid>
+      <description>El servidor web sabe la página web que te tiene que dar por la dirección que se pide. En la cabecera aparece esta dirección, y se llama host.
+Por defecto, cuando instalamos apache, tiene un sitio por defecto que se llama default. con un Document Root configurado, que será /var/www/html. En principio solo tiene un nombre, luego el Name Server no existe, en principio, cuando tenga más de uno se configura el nombre del servidor para identificar cada sitio.</description>
+    </item>
+    
+  </channel>
+</rss>
