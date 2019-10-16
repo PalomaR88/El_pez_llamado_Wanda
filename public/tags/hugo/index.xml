@@ -5,7 +5,6 @@
     <link>/tags/hugo/</link>
     <description>Recent content in Hugo on Un pez llamado Wanda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Dec 2018 22:21:42 +0100</lastBuildDate>
     
 	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +12,7 @@
     <item>
       <title>Instalacion_Debian</title>
       <link>/posts/intalacion_debia/1.instalaci%C3%B3n_debian/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/intalacion_debia/1.instalaci%C3%B3n_debian/</guid>
       <description>El particionado debe hacerse en LVM.
@@ -25,7 +24,7 @@ deb.debian.org/debian/  </description>
     <item>
       <title>Redimensionar</title>
       <link>/posts/redimensionar/2.redimensionar/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/redimensionar/2.redimensionar/</guid>
       <description>Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152

@@ -5,36 +5,14 @@
     <link>/</link>
     <description>Recent content in Home on Un pez llamado Wanda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Oct 2019 22:21:42 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Sitio web 2</title>
-      <link>/posts/sitios_web_2/servidor_web_parte2_apache2/</link>
-      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
-      
-      <guid>/posts/sitios_web_2/servidor_web_parte2_apache2/</guid>
-      <description>El servidor web sabe la página web que te tiene que dar por la dirección que se pide. En la cabecera aparece esta dirección, y se llama host.
-Por defecto, cuando instalamos apache, tiene un sitio por defecto que se llama default. con un Document Root configurado, que será /var/www/html. En principio solo tiene un nombre, luego el Name Server no existe, en principio, cuando tenga más de uno se configura el nombre del servidor para identificar cada sitio.</description>
-    </item>
-    
-    <item>
-      <title>Vagrant</title>
-      <link>/posts/vagrant/2.vagrant/</link>
-      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
-      
-      <guid>/posts/vagrant/2.vagrant/</guid>
-      <description>Página oficial de Vagrant
-Instalación de Vagrant (desarrollo de escenarios de forma fácil) $ vagrant box add debian/buster64  Por qué usar Vagrant: Por que es fácil, para automatizarlo.
-Qué se puede hacer:  Crear máquinas virtuales y contenedores. Configurar redes. Configurar la máquina Aprovisionamiento de la máquina  Imágenes de los sistemas operativos: Las imágenes en Vagrant se llaman BOX y lo que hace la aplicación es copiarlas. Existen repositorios de imágenes y es recomendable usar las imágenes oficiales.</description>
-    </item>
-    
-    <item>
       <title>Criptografia</title>
       <link>/posts/criptografia/criptograf%C3%ADa2/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/criptografia/criptograf%C3%ADa2/</guid>
       <description>Objetivos de la seguridad informática  Confidencialidad Autentificación Integridad No repudio  Integridad Existen programas (sfc en Windows, por ejemplo) que examinan la integridad de todos los archivos de sistema protegidos de Windows y reemplaza los que están corruptos o dañados.
@@ -45,7 +23,7 @@ Algoritmos para la función de dispersión: - MD5 - SHA-1</description>
     <item>
       <title>DPKG</title>
       <link>/posts/dpkg/3.-dpkg/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/dpkg/3.-dpkg/</guid>
       <description>export LANG=en_US.UTF-8  Para cambiar el idioma.
@@ -57,7 +35,7 @@ $ ls -l /bin/sh lrwxrwxrwx 1 root root 4 sep 22 16:35 /bin/sh -&amp;gt; dash  dp
     <item>
       <title>Ejercicio RAID5</title>
       <link>/posts/raid5/raid5/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/raid5/raid5/</guid>
       <description>A continuación queremos crear un raid 5 en una máquina de 2 GB, para ello vamos a utilizar discos virtuales de 1 GB. Modifica el fichero Vagrantfile del ejercicio anterior para crear una nueva máquina.
@@ -68,7 +46,7 @@ vagrant@Almacenamiento:~$ lsblk NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 
     <item>
       <title>Ejercicio despliegue de aplicación web</title>
       <link>/posts/ejercicio/ejercicios/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/ejercicio/ejercicios/</guid>
       <description>Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.  Surge - Hugo
@@ -78,7 +56,7 @@ vagrant@Almacenamiento:~$ lsblk NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 
     <item>
       <title>Ejercicio despliegue de aplicación web</title>
       <link>/posts/hardware/particionado-en-linux/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/hardware/particionado-en-linux/</guid>
       <description>Asociar volumen Vamos a utilizar el sistema operativo Debian en una máquina virtual en VirtualBox. La capacidad del volumen es de 1GB.
@@ -87,9 +65,9 @@ usuario@debian:~$ lsblk -f NAME FSTYPE LABEL UUID MOUNTPOINT sda ├─sda1 ext4
     </item>
     
     <item>
-      <title>Ejercicio firma digital </title>
+      <title>Ejercicio firma digital</title>
       <link>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</guid>
       <description>Selecciona un documento pdf y encríptalo y fírmalo (opción &amp;ndash;sign). Envíalo a un compañero, que debe, en primer lugar, verificar la firma y posteriormente descifrar el documento.
@@ -100,7 +78,7 @@ $ gpg --verify ExFH-2TR.pdf.gpg gpg: Firmado el mar 08 oct 2019 11:07:01 CEST gp
     <item>
       <title>Ejercicios VirtualHosting con Apache</title>
       <link>/posts/ejercicio_principiante_apache2/ejercicio_principiante/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/ejercicio_principiante_apache2/ejercicio_principiante/</guid>
       <description>Introducción al VirtualHosting El término Hosting Virtual se refiere a hacer funcionar más de un sitio web (tales como www.company1.com y www.company2.com) en una sola máquina. Los sitios web virtuales pueden estar “basados en direcciones IP”, lo que significa que cada sitio web tiene una dirección IP diferente, o “basados en nombres diferentes”, lo que significa que con una sola dirección IP están funcionando sitios web con diferentes nombres (de dominio).</description>
@@ -109,7 +87,7 @@ $ gpg --verify ExFH-2TR.pdf.gpg gpg: Firmado el mar 08 oct 2019 11:07:01 CEST gp
     <item>
       <title>Ejercicios criptografia</title>
       <link>/posts/ejercicios_criptografia/ejercicios/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/ejercicios_criptografia/ejercicios/</guid>
       <description>TAREA 1 Los algoritmos de cifrado asimétrico utilizan dos claves para el cifrado y descifrado de mensajes. Cada persona involucrada (receptor y emisor) debe disponer, por tanto, de una pareja de claves pública y privada. Para generar nuestra pareja de claves con gpg utilizamos la opción &amp;ndash;gen-key:
@@ -119,7 +97,7 @@ Para esta práctica no es necesario que indiquemos frase de paso en la generaci�
     <item>
       <title>Gestión de almacenamiento</title>
       <link>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</guid>
       <description>Al diseñar una política de almacenamiento de la información hay que tener en cuenta el rendimiento, disponibilidad y accesibilidad.
@@ -130,7 +108,7 @@ Almacenamiento redundante, RAID: Conjunto de discos entre los que se distribuyen
     <item>
       <title>Instalacion_Debian</title>
       <link>/posts/intalacion_debia/1.instalaci%C3%B3n_debian/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/intalacion_debia/1.instalaci%C3%B3n_debian/</guid>
       <description>El particionado debe hacerse en LVM.
@@ -142,7 +120,7 @@ deb.debian.org/debian/  </description>
     <item>
       <title>Introducción a nginx</title>
       <link>/posts/servidor_web_gninx/introduccion_nginx/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/servidor_web_gninx/introduccion_nginx/</guid>
       <description>Instalación de nginnx sudo apt update sudo apt install nginx  Instroducción a virtual hosting con nginx Podemos encontrar los sitios disponibles y activos del servidor nginx, siguiendo la filosofía de Apache2 en los directorios:
@@ -154,7 +132,7 @@ listen 80 default_server;  default_server; nos permite indicar el sitio virtual 
     <item>
       <title>Redimensionar</title>
       <link>/posts/redimensionar/2.redimensionar/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/redimensionar/2.redimensionar/</guid>
       <description>Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152
@@ -165,7 +143,7 @@ dd if=/dev/zero of=disco-virtual.img bs=512 count=2097152  Respuesta: 2097152+0 
     <item>
       <title>Servidor web 1</title>
       <link>/posts/sitios_web_1/servidor_web_parte1_mensajeria/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/sitios_web_1/servidor_web_parte1_mensajeria/</guid>
       <description>El servidor web no guarda ningún recuerdo de quien ha hecho una petición, no tiene memoria.
@@ -175,7 +153,7 @@ FUNCIONAMIENTO DE PROTOCOLO  Línea inicial del mensaje: Petición (GET), respue
     <item>
       <title>Servidor web. Parte 3</title>
       <link>/posts/servicio_web_parte_3/servidor_web_parte3_configuraci%C3%B3n_de_acceso/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/servicio_web_parte_3/servidor_web_parte3_configuraci%C3%B3n_de_acceso/</guid>
       <description>Configuración de los puertos Fichero: /etc/apache2/ports.conf Directiva: Listen
@@ -189,7 +167,7 @@ FUNCIONAMIENTO DE PROTOCOLO  Línea inicial del mensaje: Petición (GET), respue
     <item>
       <title>Sistemas híbridos</title>
       <link>/posts/utilizaci-n-de-apt/sist_hibrido.arq_diferentes/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/utilizaci-n-de-apt/sist_hibrido.arq_diferentes/</guid>
       <description>En el claud hacemos un sistema híblido y un sistema con varias arquitecturas. Debian con 64/Sid con i386. Después le damos la vuelta.
@@ -200,15 +178,36 @@ dpkg --print-foreign-architecture  </description>
     </item>
     
     <item>
+      <title>Sitio web 2</title>
+      <link>/posts/sitios_web_2/servidor_web_parte2_apache2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/sitios_web_2/servidor_web_parte2_apache2/</guid>
+      <description>El servidor web sabe la página web que te tiene que dar por la dirección que se pide. En la cabecera aparece esta dirección, y se llama host.
+Por defecto, cuando instalamos apache, tiene un sitio por defecto que se llama default. con un Document Root configurado, que será /var/www/html. En principio solo tiene un nombre, luego el Name Server no existe, en principio, cuando tenga más de uno se configura el nombre del servidor para identificar cada sitio.</description>
+    </item>
+    
+    <item>
       <title>VPN</title>
       <link>/posts/vpn/vpn/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/vpn/vpn/</guid>
       <description>Genera una clave privada RSA 4096 Se crea una clave privada con openssl. Primero, como root, creamos una clave con el siguiente comando:
 root@coatlicue:/home/paloma# openssl genrsa 4096 &amp;gt; /etc/ssl/private/coatlicue.palomaGarcia.key  Genera una solicitud de firma de certificado (fichero CSR) y súbelo a gestiona
   Una vez creada la clave, hay que crear un fichero csr para que sea firmado por la CA Gonzalo Nazareno:
 root@coatlicue:/home/paloma# openssl req -new -key /etc/ssl/private/coatlicue.</description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>/posts/vagrant/2.vagrant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/vagrant/2.vagrant/</guid>
+      <description>Página oficial de Vagrant
+Instalación de Vagrant (desarrollo de escenarios de forma fácil) $ vagrant box add debian/buster64  Por qué usar Vagrant: Por que es fácil, para automatizarlo.
+Qué se puede hacer:  Crear máquinas virtuales y contenedores. Configurar redes. Configurar la máquina Aprovisionamiento de la máquina  Imágenes de los sistemas operativos: Las imágenes en Vagrant se llaman BOX y lo que hace la aplicación es copiarlas. Existen repositorios de imágenes y es recomendable usar las imágenes oficiales.</description>
     </item>
     
   </channel>
