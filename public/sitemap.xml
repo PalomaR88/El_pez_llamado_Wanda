@@ -32,6 +32,14 @@
   </url>
   
   <url>
+    <loc>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/servidor_web_gninx/introduccion_nginx/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/#apache2/</loc>
     <lastmod>2019-10-03T22:21:42+01:00</lastmod>
     <priority>0</priority>

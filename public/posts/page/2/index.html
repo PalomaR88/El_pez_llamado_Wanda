@@ -164,6 +164,90 @@
     </footer>
 </article>
 	
+	<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
+            <a href="/posts/servidor_web_gninx/introduccion_nginx/" class="card__header__link" alt=".">
+                
+            </a>
+        </h1>
+        
+        
+        <p class="card__header__date date">
+            Monday, Jan, 0001 By .
+        </p>
+        
+        
+    </header>
+
+    <main class="card__body">
+        
+
+<h1 id="servidor-web-nginx">Servidor web nginx</h1>
+
+<h2 id="instalación-de-nginnx">Instalación de nginnx</h2>
+
+<pre><code>sudo apt update
+sudo apt install nginx
+</code></pre>
+
+<h2 id="instroducción-a-virtual-hosting-con-nginx">Instroducción a virtual hosting con nginx</h2>
+
+<p>Podemos encontrar los sitios disponibles y activos del servidor nginx, siguiendo la filosofía de Apache2 en los directorios:</p>
+
+<pre><code>/etc/nginx/sites-availables/
+/etc/nginx/sites-enabled/
+</code></pre>
+
+<p>Para activar un nuevo sitio tenemos que crear el enlace directo en el directorio <strong>/etc/nginx/sites-enabled/</strong>:</p>
+
+<pre><code>ln -s /etc/nginx/sites-available/test.com …</code></pre>
+    </main>
+
+    <footer class="card__footer">
+        
+
+    </footer>
+</article>
+	
+	<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
+            <a href="/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/" class="card__header__link" alt=".">
+                
+            </a>
+        </h1>
+        
+        
+        <p class="card__header__date date">
+            Monday, Jan, 0001 By .
+        </p>
+        
+        
+    </header>
+
+    <main class="card__body">
+        <ol>
+<li><p>Selecciona un documento pdf y encríptalo y fírmalo (opción &ndash;sign). Envíalo a un compañero, que debe, en primer lugar, verificar la firma y posteriormente descifrar el documento.</p>
+
+<pre><code>$ gpg --sign Servidor\ de\ instalación.pdf 
+$ scp Servidor\ de\ instalación.pdf.gpg ftirado@172.22.6.25:
+</code></pre></li>
+</ol>
+
+<p>Para verificar la firma se utiliza la opción:</p>
+
+<pre><code>$ gpg --verify ExFH-2TR.pdf.gpg 
+gpg: Firmado el mar 08 oct 2019 11:07:01 CEST
+gpg:                usando RSA clave …</code></pre>
+    </main>
+
+    <footer class="card__footer">
+        
+
+    </footer>
+</article>
+	
 
 	
 

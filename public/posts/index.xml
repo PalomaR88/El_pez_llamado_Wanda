@@ -52,5 +52,27 @@ Almacenamientos secundarios:  Sist magnéticos Sist ópticos Sist de almacenamie
 Almacenamiento redundante, RAID: Conjunto de discos entre los que se distribuyen o se replican datos. Ventajas:</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</guid>
+      <description>Selecciona un documento pdf y encríptalo y fírmalo (opción &amp;ndash;sign). Envíalo a un compañero, que debe, en primer lugar, verificar la firma y posteriormente descifrar el documento.
+$ gpg --sign Servidor\ de\ instalación.pdf $ scp Servidor\ de\ instalación.pdf.gpg ftirado@172.22.6.25:   Para verificar la firma se utiliza la opción:
+$ gpg --verify ExFH-2TR.pdf.gpg gpg: Firmado el mar 08 oct 2019 11:07:01 CEST gpg: usando RSA clave A615146E82E272C899A34100F405106DBBABFB72 gpg: Firma correcta de &amp;quot;Fernando Tirado &amp;lt;fernando.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/servidor_web_gninx/introduccion_nginx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/servidor_web_gninx/introduccion_nginx/</guid>
+      <description>Servidor web nginx Instalación de nginnx sudo apt update sudo apt install nginx  Instroducción a virtual hosting con nginx Podemos encontrar los sitios disponibles y activos del servidor nginx, siguiendo la filosofía de Apache2 en los directorios:
+/etc/nginx/sites-availables/ /etc/nginx/sites-enabled/  Para activar un nuevo sitio tenemos que crear el enlace directo en el directorio /etc/nginx/sites-enabled/:
+ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/  En el fichero /etc/nginx/sites-availables/default nos encontramos la directiva:</description>
+    </item>
+    
   </channel>
 </rss>
