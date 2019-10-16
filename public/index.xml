@@ -11,11 +11,11 @@
     
     
     <item>
-      <title>Sitio web</title>
-      <link>/posts/sitios_web/servidor_web_parte2_apache2/</link>
+      <title>Sitio web 2</title>
+      <link>/posts/sitios_web_2/servidor_web_parte2_apache2/</link>
       <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
       
-      <guid>/posts/sitios_web/servidor_web_parte2_apache2/</guid>
+      <guid>/posts/sitios_web_2/servidor_web_parte2_apache2/</guid>
       <description>El servidor web sabe la página web que te tiene que dar por la dirección que se pide. En la cabecera aparece esta dirección, y se llama host.
 Por defecto, cuando instalamos apache, tiene un sitio por defecto que se llama default. con un Document Root configurado, que será /var/www/html. En principio solo tiene un nombre, luego el Name Server no existe, en principio, cuando tenga más de uno se configura el nombre del servidor para identificar cada sitio.</description>
     </item>
@@ -129,6 +129,16 @@ listen 80 default_server;  default_server; nos permite indicar el sitio virtual 
       <description>Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152
 Comando para crear el disco virtual
 dd if=/dev/zero of=disco-virtual.img bs=512 count=2097152  Respuesta: 2097152+0 registros leídos 2097152+0 registros escritos 1073741824 bytes (1,1 GB, 1,0 GiB) copied, 5,84997 s, 184 MB/s $ sudo losetup -vf disco-virtual.img We trust you have received the usual lecture from the local System Administrator.</description>
+    </item>
+    
+    <item>
+      <title>Servidor web 1</title>
+      <link>/posts/sitios_web_1/servidor_web_parte1_mensajeria/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/sitios_web_1/servidor_web_parte1_mensajeria/</guid>
+      <description>El servidor web no guarda ningún recuerdo de quien ha hecho una petición, no tiene memoria.
+FUNCIONAMIENTO DE PROTOCOLO  Línea inicial del mensaje: Petición (GET), respuesta (HTTP) Cabecera del mensaje Cuerpo del mensaje  Métodos de envío de datos utilizados: - GET: solicita un documento al servidor. - HEAD: Similar a GET, pero solo pide las cabeceras HTTP. Pide información de un recurso, pero no el recurso en sí, sino la caberas.</description>
     </item>
     
     <item>

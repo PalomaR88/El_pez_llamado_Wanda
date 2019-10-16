@@ -6,14 +6,7 @@ author: "Paloma R. García"
 images: []
 draft: false
 ---
-###---
-title: "Ejercicio despliegue de aplicación web"
-date: 2018-12-17T22:21:42+01:00
-publishDate: 2018-12-19T22:21:42+01:00
-author: "Paloma R. García"
-images: []
-draft: false
---- **TAREA 1**
+### **TAREA 1**
 Los algoritmos de cifrado asimétrico utilizan dos claves para el cifrado y descifrado de mensajes. Cada persona involucrada (receptor y emisor) debe disponer, por tanto, de una pareja de claves pública y privada. Para generar nuestra pareja de claves con gpg utilizamos la opción --gen-key:
 
 Para esta práctica no es necesario que indiquemos frase de paso en la generación de las claves (al menos para la clave pública).
