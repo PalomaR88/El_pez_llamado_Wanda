@@ -98,6 +98,56 @@
 	<article class="card">
     <header class="card__header">
         <h1 class="card__header__title">
+            <a href="/posts/servicio_web_parte_3/servidor_web_parte3_configuraci%C3%B3n_de_acceso/" class="card__header__link" alt="Servidor web. Parte 3.">
+                Servidor web. Parte 3
+            </a>
+        </h1>
+        
+        
+        <p class="card__header__date date">
+            Monday, Dec, 2018 By Paloma R. García.
+        </p>
+        
+        
+    </header>
+
+    <main class="card__body">
+        
+
+<h2 id="configuración-de-los-puertos">Configuración de los puertos</h2>
+
+<p>Fichero: /etc/apache2/ports.conf
+Directiva: Listen</p>
+
+<blockquote>
+<p>Ejemplo: Virtual Host basado en IP</p>
+</blockquote>
+
+<pre><code>&lt;VirtualHost 172.2.30.40:80&gt;
+	ServerAdmin webmaster@example.com
+	DocumentRoot &quot;/www/vhost/www2&quot;
+	ServerName www2.example.org
+	ErrorLog &quot;/www/logs/www2/error_log&quot;
+	CustomLog &quot;/www/logs/www2/access_log&quot; combined
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<blockquote>
+<p>Ejemplo: Servir el mismo contenido en varias IP</p>
+</blockquote>
+
+<pre><code>&lt;VirtualHost 172.2.30.40:80 …</code></pre>
+    </main>
+
+    <footer class="card__footer">
+        
+
+    </footer>
+</article>
+	
+	<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
             <a href="/posts/sitios_web_1/servidor_web_parte1_mensajeria/" class="card__header__link" alt="Servidor web 1.">
                 Servidor web 1
             </a>
@@ -205,53 +255,6 @@ We trust you have received the usual lecture from the local System …</code></p
     
 </ul>
 
-
-    </footer>
-</article>
-	
-	<article class="card">
-    <header class="card__header">
-        <h1 class="card__header__title">
-            <a href="/posts/servidor_web_gninx/introduccion_nginx/" class="card__header__link" alt="Introducción a nginx.">
-                Introducción a nginx
-            </a>
-        </h1>
-        
-        
-        <p class="card__header__date date">
-            Monday, Dec, 2018 By Paloma R. García.
-        </p>
-        
-        
-    </header>
-
-    <main class="card__body">
-        
-
-<h3 id="instalación-de-nginnx">Instalación de nginnx</h3>
-
-<pre><code>sudo apt update
-sudo apt install nginx
-</code></pre>
-
-<h3 id="instroducción-a-virtual-hosting-con-nginx">Instroducción a virtual hosting con nginx</h3>
-
-<p>Podemos encontrar los sitios disponibles y activos del servidor nginx, siguiendo la filosofía de Apache2 en los directorios:</p>
-
-<pre><code>/etc/nginx/sites-availables/
-/etc/nginx/sites-enabled/
-</code></pre>
-
-<p>Para activar un nuevo sitio tenemos que crear el enlace directo en el directorio <strong>/etc/nginx/sites-enabled/</strong>:</p>
-
-<pre><code>ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/
-</code></pre>
-
-<p>En el …</p>
-    </main>
-
-    <footer class="card__footer">
-        
 
     </footer>
 </article>

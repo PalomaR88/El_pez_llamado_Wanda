@@ -151,6 +151,20 @@ FUNCIONAMIENTO DE PROTOCOLO  Línea inicial del mensaje: Petición (GET), respue
     </item>
     
     <item>
+      <title>Servidor web. Parte 3</title>
+      <link>/posts/servicio_web_parte_3/servidor_web_parte3_configuraci%C3%B3n_de_acceso/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/servicio_web_parte_3/servidor_web_parte3_configuraci%C3%B3n_de_acceso/</guid>
+      <description>Configuración de los puertos Fichero: /etc/apache2/ports.conf Directiva: Listen
+ Ejemplo: Virtual Host basado en IP
+ &amp;lt;VirtualHost 172.2.30.40:80&amp;gt; ServerAdmin webmaster@example.com DocumentRoot &amp;quot;/www/vhost/www2&amp;quot; ServerName www2.example.org ErrorLog &amp;quot;/www/logs/www2/error_log&amp;quot; CustomLog &amp;quot;/www/logs/www2/access_log&amp;quot; combined &amp;lt;/VirtualHost&amp;gt;   Ejemplo: Servir el mismo contenido en varias IP
+ &amp;lt;VirtualHost 172.2.30.40:80 192.168.1.1&amp;gt; DocumentRoot &amp;quot;/www/server1&amp;quot; ServerName server.example.com ServerAlias server &amp;lt;/VirtualHost&amp;gt;   Ejemplo: sirviendo distintos sitios en distintos puertos
+ Hay que configurar /etc/apache2/ports.conf
+&amp;lt;VirtualHost *:80&amp;gt; DocumentRoot &amp;quot;/www/domain-80&amp;quot; ServerName www.</description>
+    </item>
+    
+    <item>
       <title>VPN</title>
       <link>/posts/vpn/vpn/</link>
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
