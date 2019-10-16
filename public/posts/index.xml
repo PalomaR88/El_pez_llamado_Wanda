@@ -55,6 +55,17 @@ $ ls -l /bin/sh lrwxrwxrwx 1 root root 4 sep 22 16:35 /bin/sh -&amp;gt; dash  dp
     </item>
     
     <item>
+      <title>Ejercicio RAID5</title>
+      <link>/posts/raid5/raid5/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/raid5/raid5/</guid>
+      <description>A continuación queremos crear un raid 5 en una máquina de 2 GB, para ello vamos a utilizar discos virtuales de 1 GB. Modifica el fichero Vagrantfile del ejercicio anterior para crear una nueva máquina.
+ Tarea 1: Crea una raid llamado md5 con los discos que hemos conectado a la máquina. Discos:
+vagrant@Almacenamiento:~$ lsblk NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 0 19.8G 0 disk ├─sda1 8:1 0 18.</description>
+    </item>
+    
+    <item>
       <title>Ejercicio despliegue de aplicación web</title>
       <link>/posts/ejercicio/ejercicios/</link>
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
