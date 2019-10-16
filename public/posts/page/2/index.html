@@ -98,6 +98,48 @@
 	<article class="card">
     <header class="card__header">
         <h1 class="card__header__title">
+            <a href="/posts/utilizaci-n-de-apt/sist_hibrido.arq_diferentes/" class="card__header__link" alt="Sistemas híbridos.">
+                Sistemas híbridos
+            </a>
+        </h1>
+        
+        
+        <p class="card__header__date date">
+            Monday, Dec, 2018 By Paloma R. García.
+        </p>
+        
+        
+    </header>
+
+    <main class="card__body">
+        <p>En el claud hacemos un sistema híblido y un sistema con varias arquitecturas. Debian con 64/Sid con i386. Después le damos la vuelta.</p>
+
+<p>Para añadir una arquitectura adicional se usa el comando:</p>
+
+<pre><code>dpkg --add-architecture i386
+</code></pre>
+
+<p>Para ver la arquitectura de la máquina:</p>
+
+<pre><code>dpkg --print-architecture
+</code></pre>
+
+<p>Para ver las arquitecturas adicionales de una máquina:</p>
+
+<pre><code>dpkg --print-foreign-architecture
+</code></pre>
+
+    </main>
+
+    <footer class="card__footer">
+        
+
+    </footer>
+</article>
+	
+	<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
             <a href="/posts/servicio_web_parte_3/servidor_web_parte3_configuraci%C3%B3n_de_acceso/" class="card__header__link" alt="Servidor web. Parte 3.">
                 Servidor web. Parte 3
             </a>
@@ -182,79 +224,6 @@ Directiva: Listen</p>
 
     <footer class="card__footer">
         
-
-    </footer>
-</article>
-	
-	<article class="card">
-    <header class="card__header">
-        <h1 class="card__header__title">
-            <a href="/posts/redimensionar/2.redimensionar/" class="card__header__link" alt="Redimensionar.">
-                Redimensionar
-            </a>
-        </h1>
-        
-        
-        <p class="card__header__date date">
-            Monday, Dec, 2018 By Paloma R. García.
-        </p>
-        
-        
-    </header>
-
-    <main class="card__body">
-        
-
-<p>Creación del disco virtual
-Para saber los bloques:
-1 GiB=2^30 bytes
-1 bloque = 512 bytes = 2^9 bytes
-2^<sup>30</sup>&frasl;<sub>2</sub>^9 = 2^21 = 2097152</p>
-
-<p>Comando para crear el disco virtual</p>
-
-<pre><code>dd if=/dev/zero of=disco-virtual.img bs=512 count=2097152
-</code></pre>
-
-<h2 id="respuesta">Respuesta:</h2>
-
-<pre><code>2097152+0 registros leídos
-2097152+0 registros escritos
-1073741824 bytes (1,1 GB, 1,0 GiB) copied, 5,84997 s, 184 MB/s
-
-
-$ sudo losetup -vf disco-virtual.img
-
-We trust you have received the usual lecture from the local System …</code></pre>
-    </main>
-
-    <footer class="card__footer">
-        
-<ul class="tags">
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/aplicaciones_web/" class="tag__link" alt="aplicaciones_web.">
-            #aplicaciones_web
-        </a>
-    </li>
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/ASIR/" class="tag__link" alt="ASIR.">
-            #ASIR
-        </a>
-    </li>
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/Hugo/" class="tag__link" alt="Hugo.">
-            #Hugo
-        </a>
-    </li>
-    
-</ul>
-
 
     </footer>
 </article>
