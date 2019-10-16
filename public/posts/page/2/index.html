@@ -98,6 +98,70 @@
 	<article class="card">
     <header class="card__header">
         <h1 class="card__header__title">
+            <a href="/posts/intalacion_debia/1.instalaci%C3%B3n_debian/" class="card__header__link" alt="Instalacion_Debian.">
+                Instalacion_Debian
+            </a>
+        </h1>
+        
+        
+        <p class="card__header__date date">
+            Monday, Dec, 2018 By Paloma R. García.
+        </p>
+        
+        
+    </header>
+
+    <main class="card__body">
+        <p>Instalación de Debian</p>
+
+<p>El particionado debe hacerse en LVM.</p>
+
+<p>Para extender volúmenes, si son volúmenes lógicos:</p>
+
+<pre><code>lvresize -L+5G /dev/mapper/raiz
+</code></pre>
+
+<p>Repositorio necesario:</p>
+
+<pre><code>deb.debian.org/debian/
+</code></pre>
+
+    </main>
+
+    <footer class="card__footer">
+        
+<ul class="tags">
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/aplicaciones_web/" class="tag__link" alt="aplicaciones_web.">
+            #aplicaciones_web
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/ASIR/" class="tag__link" alt="ASIR.">
+            #ASIR
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/Hugo/" class="tag__link" alt="Hugo.">
+            #Hugo
+        </a>
+    </li>
+    
+</ul>
+
+
+    </footer>
+</article>
+	
+	<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
             <a href="/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/" class="card__header__link" alt="Gestión de almacenamiento.">
                 Gestión de almacenamiento
             </a>
@@ -210,44 +274,6 @@ sudo apt install nginx
     </footer>
 </article>
 	
-	<article class="card">
-    <header class="card__header">
-        <h1 class="card__header__title">
-            <a href="/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/" class="card__header__link" alt=".">
-                
-            </a>
-        </h1>
-        
-        
-        <p class="card__header__date date">
-            Monday, Jan, 0001 By .
-        </p>
-        
-        
-    </header>
-
-    <main class="card__body">
-        <ol>
-<li><p>Selecciona un documento pdf y encríptalo y fírmalo (opción &ndash;sign). Envíalo a un compañero, que debe, en primer lugar, verificar la firma y posteriormente descifrar el documento.</p>
-
-<pre><code>$ gpg --sign Servidor\ de\ instalación.pdf 
-$ scp Servidor\ de\ instalación.pdf.gpg ftirado@172.22.6.25:
-</code></pre></li>
-</ol>
-
-<p>Para verificar la firma se utiliza la opción:</p>
-
-<pre><code>$ gpg --verify ExFH-2TR.pdf.gpg 
-gpg: Firmado el mar 08 oct 2019 11:07:01 CEST
-gpg:                usando RSA clave …</code></pre>
-    </main>
-
-    <footer class="card__footer">
-        
-
-    </footer>
-</article>
-	
 
 	
 
@@ -284,12 +310,23 @@ gpg:                usando RSA clave …</code></pre>
     <li class="page-item active"><a class="page-link" href="/posts/page/2/">2</a></li>
     
     
-    <li class="page-item disabled">
-    <a href="" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/posts/page/3/">3</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/posts/page/3/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/posts/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/posts/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
