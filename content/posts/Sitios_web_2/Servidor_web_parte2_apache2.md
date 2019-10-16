@@ -1,8 +1,6 @@
 ---
 title: "Sitio web 2"
 description: "Primeros pasos en Apache2"
-date: 2019-10-03T22:21:42+01:00
-publishDate: 2019-10-03T22:21:42+01:00
 author: "Paloma R. García"
 images: []
 draft: false

@@ -76,6 +76,17 @@ vagrant@Almacenamiento:~$ lsblk NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINT sda 8:0 
     </item>
     
     <item>
+      <title>Ejercicio despliegue de aplicación web</title>
+      <link>/posts/hardware/particionado-en-linux/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/hardware/particionado-en-linux/</guid>
+      <description>Asociar volumen Vamos a utilizar el sistema operativo Debian en una máquina virtual en VirtualBox. La capacidad del volumen es de 1GB.
+Comando fdisk  Primeras particiones: Primaria de 150MB para sistema de ficheros Linux. Extendida en el resto del espacio. 5 particiones lógicas iguales dentro de la extendida 1 para swap 2 para linux 1 ntfs 1 FAT32  Ver los discos disponibles:
+usuario@debian:~$ lsblk -f NAME FSTYPE LABEL UUID MOUNTPOINT sda ├─sda1 ext4 e401a03e-3f11-441a-9f97-118e112ff941 / ├─sda2 └─sda5 swap fdbfbc2d-d60c-4cb9-989d-974067aa5004 [SWAP] sdb sr0 iso9660 VBOXADDITIONS_5.</description>
+    </item>
+    
+    <item>
       <title>Ejercicio firma digital </title>
       <link>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</link>
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>

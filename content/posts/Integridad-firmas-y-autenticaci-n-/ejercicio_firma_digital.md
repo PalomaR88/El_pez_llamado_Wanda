@@ -1,8 +1,5 @@
 ---
-title: "Ejercicio firma digital
-"
-date: 2018-12-17T22:21:42+01:00
-publishDate: 2018-12-19T22:21:42+01:00
+title: "Ejercicio firma digital"
 author: "Paloma R. García"
 images: []
 draft: false

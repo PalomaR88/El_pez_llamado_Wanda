@@ -1,7 +1,5 @@
 ---
 title: "Gestión de almacenamiento"
-date: 2018-12-17T22:21:42+01:00
-publishDate: 2018-12-19T22:21:42+01:00
 author: "Paloma R. García"
 images: []
 draft: false
