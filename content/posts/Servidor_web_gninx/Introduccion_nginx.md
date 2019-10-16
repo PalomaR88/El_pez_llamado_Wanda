@@ -1,12 +1,18 @@
-# Servidor web nginx
-
-## Instalación de nginnx
+---
+title: "Introducción a nginx"
+date: 2018-12-17T22:21:42+01:00
+publishDate: 2018-12-19T22:21:42+01:00
+author: "Paloma R. García"
+images: []
+draft: false
+---
+### Instalación de nginnx
 ~~~
 sudo apt update
 sudo apt install nginx
 ~~~
 
-## Instroducción a virtual hosting con nginx
+### Instroducción a virtual hosting con nginx
 Podemos encontrar los sitios disponibles y activos del servidor nginx, siguiendo la filosofía de Apache2 en los directorios:
 ~~~
 /etc/nginx/sites-availables/
@@ -110,7 +116,7 @@ allow 127.0.0.1                        allow 127.0.0.1;
 deny all                               deny all;
 ~~~
 
-# PRACTICA
+## PRACTICA
 El objetivo de esta práctica es la puesta en marcha de dos sitios web utilizando el mismo servidor web ginx. Hay que tener en cuenta lo siguiente:
 
     Cada sitio web tendrá nombres distintos.

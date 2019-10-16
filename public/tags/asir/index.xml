@@ -44,5 +44,16 @@ lvresize -L+5G /dev/mapper/raiz  Repositorio necesario:
 deb.debian.org/debian/  </description>
     </item>
     
+    <item>
+      <title>Redimensionar</title>
+      <link>/posts/redimensionar/2.redimensionar/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/redimensionar/2.redimensionar/</guid>
+      <description>REDIMENSIONAR Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152
+Comando para crear el disco virtual
+dd if=/dev/zero of=disco-virtual.img bs=512 count=2097152  Respuesta: 2097152+0 registros leídos 2097152+0 registros escritos 1073741824 bytes (1,1 GB, 1,0 GiB) copied, 5,84997 s, 184 MB/s $ sudo losetup -vf disco-virtual.img We trust you have received the usual lecture from the local System Administrator.</description>
+    </item>
+    
   </channel>
 </rss>

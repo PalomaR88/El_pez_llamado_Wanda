@@ -1,3 +1,12 @@
+---
+title: "Ejercicio firma digital
+"
+date: 2018-12-17T22:21:42+01:00
+publishDate: 2018-12-19T22:21:42+01:00
+author: "Paloma R. García"
+images: []
+draft: false
+---
 1. Selecciona un documento pdf y encríptalo y fírmalo (opción --sign). Envíalo a un compañero, que debe, en primer lugar, verificar la firma y posteriormente descifrar el documento.
 
 ~~~
@@ -41,6 +50,6 @@ $ scp Servidor\ de\ instalación.pdf.gpg ftirado@172.22.6.25:
 
 $ scp clave-publica.asc moralg@172.22.9.198:
 $ scp ExFH-2TR.pdf.gpg moralg@172.22.9.198:
-
+~~~
 
 

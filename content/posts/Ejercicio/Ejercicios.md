@@ -1,12 +1,10 @@
 ---
-title: "Creación de un sitio web estático"
-description: "Creación de una página web estática con Hugo"
-date: 2019-10-03T22:21:42+01:00
-publishDate: 2019-10-03T22:21:42+01:00
+title: "Ejercicio despliegue de aplicación web"
+date: 2018-12-17T22:21:42+01:00
+publishDate: 2018-12-19T22:21:42+01:00
 author: "Paloma R. García"
 images: []
 draft: false
-tags: ["aplicaciones_web", "ASIR" , "Hugo"]
 ---
 
 - Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.

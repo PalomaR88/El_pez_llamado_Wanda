@@ -6,7 +6,6 @@ publishDate: 2019-10-03T22:21:42+01:00
 author: "Paloma R. García"
 images: []
 draft: false
-tags: ["#Apache2"]
 ---
 
 El servidor web sabe la página web que te tiene que dar por la dirección que se pide. En la cabecera aparece esta dirección, y se llama host.

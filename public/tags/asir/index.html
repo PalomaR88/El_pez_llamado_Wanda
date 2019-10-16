@@ -159,6 +159,81 @@
 	<article class="card">
     <header class="card__header">
         <h1 class="card__header__title">
+            <a href="/posts/redimensionar/2.redimensionar/" class="card__header__link" alt="Redimensionar.">
+                Redimensionar
+            </a>
+        </h1>
+        
+        
+        <p class="card__header__date date">
+            Monday, Dec, 2018 By Paloma R. García.
+        </p>
+        
+        
+    </header>
+
+    <main class="card__body">
+        
+
+<h1 id="redimensionar">REDIMENSIONAR</h1>
+
+<p>Creación del disco virtual
+Para saber los bloques:
+1 GiB=2^30 bytes
+1 bloque = 512 bytes = 2^9 bytes
+2^<sup>30</sup>&frasl;<sub>2</sub>^9 = 2^21 = 2097152</p>
+
+<p>Comando para crear el disco virtual</p>
+
+<pre><code>dd if=/dev/zero of=disco-virtual.img bs=512 count=2097152
+</code></pre>
+
+<h2 id="respuesta">Respuesta:</h2>
+
+<pre><code>2097152+0 registros leídos
+2097152+0 registros escritos
+1073741824 bytes (1,1 GB, 1,0 GiB) copied, 5,84997 s, 184 MB/s
+
+
+$ sudo losetup -vf disco-virtual.img
+
+We trust you have received the usual lecture from the local …</code></pre>
+    </main>
+
+    <footer class="card__footer">
+        
+<ul class="tags">
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/aplicaciones_web/" class="tag__link" alt="aplicaciones_web.">
+            #aplicaciones_web
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/ASIR/" class="tag__link" alt="ASIR.">
+            #ASIR
+        </a>
+    </li>
+    
+    
+    <li class="tags__tag">
+        <a href="/tags/Hugo/" class="tag__link" alt="Hugo.">
+            #Hugo
+        </a>
+    </li>
+    
+</ul>
+
+
+    </footer>
+</article>
+	
+	<article class="card">
+    <header class="card__header">
+        <h1 class="card__header__title">
             <a href="/posts/intalacion_debia/1.instalaci%C3%B3n_debian/" class="card__header__link" alt="Instalacion_Debian.">
                 Instalacion_Debian
             </a>
@@ -220,77 +295,51 @@
     </footer>
 </article>
 	
-	<article class="card">
-    <header class="card__header">
-        <h1 class="card__header__title">
-            <a href="/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/" class="card__header__link" alt="Gestión de almacenamiento.">
-                Gestión de almacenamiento
-            </a>
-        </h1>
-        
-        
-        <p class="card__header__date date">
-            Monday, Dec, 2018 By Paloma R. García.
-        </p>
-        
-        
-    </header>
 
-    <main class="card__body">
-        
+	
 
-<p>Al diseñar una política de almacenamiento de la información hay que tener en cuenta el rendimiento, disponibilidad y accesibilidad.</p>
-
-<h3 id="almacenamientos-secundarios">Almacenamientos secundarios:</h3>
-
-<ul>
-<li>Sist magnéticos</li>
-<li>Sist ópticos</li>
-<li>Sist de almacenamiento sólido</li>
-</ul>
-
-<h3 id="en-la-nube">En la nube:</h3>
-
-<p>Estos tipos están creciendo. Ventajas: actualización a tiempo real, acceso en cualquier lugar y bajos costes. Inconvenientes: seguridad y dependencia.</p>
-
-<h3 id="almacenamiento-redundante-raid">Almacenamiento redundante, RAID:</h3>
-
-<p>Conjunto de discos entre los que se distribuyen o se …</p>
-    </main>
-
-    <footer class="card__footer">
-        
-<ul class="tags">
+<ul class="pagination">
     
+    <li class="page-item">
+        <a href="/tags/asir/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
     
-    <li class="tags__tag">
-        <a href="/tags/aplicaciones_web/" class="tag__link" alt="aplicaciones_web.">
-            #aplicaciones_web
-        </a>
+    <li class="page-item disabled">
+    <a href="" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
     </li>
     
     
-    <li class="tags__tag">
-        <a href="/tags/ASIR/" class="tag__link" alt="ASIR.">
-            #ASIR
-        </a>
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/tags/asir/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/tags/asir/page/2/">2</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/tags/asir/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
-    
-    <li class="tags__tag">
-        <a href="/tags/Hugo/" class="tag__link" alt="Hugo.">
-            #Hugo
-        </a>
+    <li class="page-item">
+        <a href="/tags/asir/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
-
-
-    </footer>
-</article>
-	
-
-	
 
 </main>
 <footer class="footer">

@@ -5,7 +5,6 @@ publishDate: 2018-12-19T22:21:42+01:00
 author: "Paloma R. García"
 images: []
 draft: false
-tags: ["aplicaciones_web", "ASIR" , "Hugo"]
 ---
 
 Al diseñar una política de almacenamiento de la información hay que tener en cuenta el rendimiento, disponibilidad y accesibilidad.
