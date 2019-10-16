@@ -76,12 +76,21 @@ $ gpg --verify ExFH-2TR.pdf.gpg gpg: Firmado el mar 08 oct 2019 11:07:01 CEST gp
     </item>
     
     <item>
+      <title>Ejercicios VirtualHosting con Apache</title>
+      <link>/posts/ejercicio_principiante_apache2/ejercicio_principiante/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/ejercicio_principiante_apache2/ejercicio_principiante/</guid>
+      <description>Introducción al VirtualHosting El término Hosting Virtual se refiere a hacer funcionar más de un sitio web (tales como www.company1.com y www.company2.com) en una sola máquina. Los sitios web virtuales pueden estar “basados en direcciones IP”, lo que significa que cada sitio web tiene una dirección IP diferente, o “basados en nombres diferentes”, lo que significa que con una sola dirección IP están funcionando sitios web con diferentes nombres (de dominio).</description>
+    </item>
+    
+    <item>
       <title>Ejercicios criptografia</title>
       <link>/posts/ejercicios_criptografia/ejercicios/</link>
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
       
       <guid>/posts/ejercicios_criptografia/ejercicios/</guid>
-      <description>###&amp;mdash; title: &amp;ldquo;Ejercicio despliegue de aplicación web&amp;rdquo; date: 2018-12-17T22:21:42+01:00 publishDate: 2018-12-19T22:21:42+01:00 author: &amp;ldquo;Paloma R. García&amp;rdquo; images: [] draft: false &amp;mdash; TAREA 1 Los algoritmos de cifrado asimétrico utilizan dos claves para el cifrado y descifrado de mensajes. Cada persona involucrada (receptor y emisor) debe disponer, por tanto, de una pareja de claves pública y privada. Para generar nuestra pareja de claves con gpg utilizamos la opción &amp;ndash;gen-key:
+      <description>TAREA 1 Los algoritmos de cifrado asimétrico utilizan dos claves para el cifrado y descifrado de mensajes. Cada persona involucrada (receptor y emisor) debe disponer, por tanto, de una pareja de claves pública y privada. Para generar nuestra pareja de claves con gpg utilizamos la opción &amp;ndash;gen-key:
 Para esta práctica no es necesario que indiquemos frase de paso en la generación de las claves (al menos para la clave pública).</description>
     </item>
     
