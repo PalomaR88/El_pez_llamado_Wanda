@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>Creación de un sitio web estático</title>
-      <link>/posts/ejercicio/ejercicios/</link>
-      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
-      
-      <guid>/posts/ejercicio/ejercicios/</guid>
-      <description>Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.  Surge - Hugo
- Comenta la instalación del generador de página estática. Recuerda que el generador tienes que instalarlo en tu entorno de desarrollo. Indica el lenguaje en el que está desarrollado y el sistema de plantillas que utiliza. (1 punto)  HUGO: Lenguaje: JavaScript.</description>
-    </item>
-    
-    <item>
       <title>Sitio web</title>
       <link>/posts/sitios_web/servidor_web_parte2_apache2/</link>
       <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
@@ -42,6 +32,60 @@ Qué se puede hacer:  Crear máquinas virtuales y contenedores. Configurar redes
     </item>
     
     <item>
+      <title>Criptografia</title>
+      <link>/posts/criptografia/criptograf%C3%ADa2/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/criptografia/criptograf%C3%ADa2/</guid>
+      <description>Objetivos de la seguridad informática  Confidencialidad Autentificación Integridad No repudio  Integridad Existen programas (sfc en Windows, por ejemplo) que examinan la integridad de todos los archivos de sistema protegidos de Windows y reemplaza los que están corruptos o dañados.
+Comprobar los ficheros completamente es computacionalmente muy caro. Se utilizan funciones de dispersión H con las que se obtiene un resumen del fichero de tamaño fijo H(m).
+Algoritmos para la función de dispersión: - MD5 - SHA-1</description>
+    </item>
+    
+    <item>
+      <title>DPKG</title>
+      <link>/posts/dpkg/3.-dpkg/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/dpkg/3.-dpkg/</guid>
+      <description>export LANG=en_US.UTF-8  Para cambiar el idioma.
+PATH: es la ruta de los ejecutables y el orden en el que se ejecuta.
+La BASH es la shell por defecto de de Linux y la DASH es lo mismo, solo que como hay tareas que otros usuarios de otras aplicaciones realiza por BASH, pero son procesos automáticos, se utiliza esta shell que es igual pero más adelgazado.
+$ ls -l /bin/sh lrwxrwxrwx 1 root root 4 sep 22 16:35 /bin/sh -&amp;gt; dash  dpkg -L -&amp;gt; muestra todo el contenido del paquete.</description>
+    </item>
+    
+    <item>
+      <title>Ejercicio despliegue de aplicación web</title>
+      <link>/posts/ejercicio/ejercicios/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/ejercicio/ejercicios/</guid>
+      <description>Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.  Surge - Hugo
+ Comenta la instalación del generador de página estática. Recuerda que el generador tienes que instalarlo en tu entorno de desarrollo. Indica el lenguaje en el que está desarrollado y el sistema de plantillas que utiliza. (1 punto)  HUGO: Lenguaje: JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Ejercicio firma digital </title>
+      <link>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</guid>
+      <description>Selecciona un documento pdf y encríptalo y fírmalo (opción &amp;ndash;sign). Envíalo a un compañero, que debe, en primer lugar, verificar la firma y posteriormente descifrar el documento.
+$ gpg --sign Servidor\ de\ instalación.pdf $ scp Servidor\ de\ instalación.pdf.gpg ftirado@172.22.6.25:   Para verificar la firma se utiliza la opción:
+$ gpg --verify ExFH-2TR.pdf.gpg gpg: Firmado el mar 08 oct 2019 11:07:01 CEST gpg: usando RSA clave A615146E82E272C899A34100F405106DBBABFB72 gpg: Firma correcta de &amp;quot;Fernando Tirado &amp;lt;fernando.</description>
+    </item>
+    
+    <item>
+      <title>Ejercicios criptografia</title>
+      <link>/posts/ejercicios_criptografia/ejercicios/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/ejercicios_criptografia/ejercicios/</guid>
+      <description>###&amp;mdash; title: &amp;ldquo;Ejercicio despliegue de aplicación web&amp;rdquo; date: 2018-12-17T22:21:42+01:00 publishDate: 2018-12-19T22:21:42+01:00 author: &amp;ldquo;Paloma R. García&amp;rdquo; images: [] draft: false &amp;mdash; TAREA 1 Los algoritmos de cifrado asimétrico utilizan dos claves para el cifrado y descifrado de mensajes. Cada persona involucrada (receptor y emisor) debe disponer, por tanto, de una pareja de claves pública y privada. Para generar nuestra pareja de claves con gpg utilizamos la opción &amp;ndash;gen-key:
+Para esta práctica no es necesario que indiquemos frase de paso en la generación de las claves (al menos para la clave pública).</description>
+    </item>
+    
+    <item>
       <title>Gestión de almacenamiento</title>
       <link>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</link>
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
@@ -58,11 +102,22 @@ Almacenamiento redundante, RAID: Conjunto de discos entre los que se distribuyen
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
       
       <guid>/posts/intalacion_debia/1.instalaci%C3%B3n_debian/</guid>
-      <description>Instalación de Debian
-El particionado debe hacerse en LVM.
+      <description>El particionado debe hacerse en LVM.
 Para extender volúmenes, si son volúmenes lógicos:
 lvresize -L+5G /dev/mapper/raiz  Repositorio necesario:
 deb.debian.org/debian/  </description>
+    </item>
+    
+    <item>
+      <title>Introducción a nginx</title>
+      <link>/posts/servidor_web_gninx/introduccion_nginx/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
+      
+      <guid>/posts/servidor_web_gninx/introduccion_nginx/</guid>
+      <description>Instalación de nginnx sudo apt update sudo apt install nginx  Instroducción a virtual hosting con nginx Podemos encontrar los sitios disponibles y activos del servidor nginx, siguiendo la filosofía de Apache2 en los directorios:
+/etc/nginx/sites-availables/ /etc/nginx/sites-enabled/  Para activar un nuevo sitio tenemos que crear el enlace directo en el directorio /etc/nginx/sites-enabled/:
+ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/  En el fichero /etc/nginx/sites-availables/default nos encontramos la directiva:
+listen 80 default_server;  default_server; nos permite indicar el sitio virtual por defecto.</description>
     </item>
     
     <item>
@@ -71,31 +126,21 @@ deb.debian.org/debian/  </description>
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
       
       <guid>/posts/redimensionar/2.redimensionar/</guid>
-      <description>REDIMENSIONAR Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152
+      <description>Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152
 Comando para crear el disco virtual
 dd if=/dev/zero of=disco-virtual.img bs=512 count=2097152  Respuesta: 2097152+0 registros leídos 2097152+0 registros escritos 1073741824 bytes (1,1 GB, 1,0 GiB) copied, 5,84997 s, 184 MB/s $ sudo losetup -vf disco-virtual.img We trust you have received the usual lecture from the local System Administrator.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>VPN</title>
+      <link>/posts/vpn/vpn/</link>
+      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
       
-      <guid>/posts/integridad-firmas-y-autenticaci-n-/ejercicio_firma_digital/</guid>
-      <description>Selecciona un documento pdf y encríptalo y fírmalo (opción &amp;ndash;sign). Envíalo a un compañero, que debe, en primer lugar, verificar la firma y posteriormente descifrar el documento.
-$ gpg --sign Servidor\ de\ instalación.pdf $ scp Servidor\ de\ instalación.pdf.gpg ftirado@172.22.6.25:   Para verificar la firma se utiliza la opción:
-$ gpg --verify ExFH-2TR.pdf.gpg gpg: Firmado el mar 08 oct 2019 11:07:01 CEST gpg: usando RSA clave A615146E82E272C899A34100F405106DBBABFB72 gpg: Firma correcta de &amp;quot;Fernando Tirado &amp;lt;fernando.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/servidor_web_gninx/introduccion_nginx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/servidor_web_gninx/introduccion_nginx/</guid>
-      <description>Servidor web nginx Instalación de nginnx sudo apt update sudo apt install nginx  Instroducción a virtual hosting con nginx Podemos encontrar los sitios disponibles y activos del servidor nginx, siguiendo la filosofía de Apache2 en los directorios:
-/etc/nginx/sites-availables/ /etc/nginx/sites-enabled/  Para activar un nuevo sitio tenemos que crear el enlace directo en el directorio /etc/nginx/sites-enabled/:
-ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/  En el fichero /etc/nginx/sites-availables/default nos encontramos la directiva:</description>
+      <guid>/posts/vpn/vpn/</guid>
+      <description>Genera una clave privada RSA 4096 Se crea una clave privada con openssl. Primero, como root, creamos una clave con el siguiente comando:
+root@coatlicue:/home/paloma# openssl genrsa 4096 &amp;gt; /etc/ssl/private/coatlicue.palomaGarcia.key  Genera una solicitud de firma de certificado (fichero CSR) y súbelo a gestiona
+  Una vez creada la clave, hay que crear un fichero csr para que sea firmado por la CA Gonzalo Nazareno:
+root@coatlicue:/home/paloma# openssl req -new -key /etc/ssl/private/coatlicue.</description>
     </item>
     
   </channel>

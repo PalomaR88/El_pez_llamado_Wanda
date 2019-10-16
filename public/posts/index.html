@@ -143,17 +143,6 @@
 
     <footer class="card__footer">
         
-<ul class="tags">
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/vagrant/" class="tag__link" alt="vagrant.">
-            #vagrant
-        </a>
-    </li>
-    
-</ul>
-
 
     </footer>
 </article>
@@ -182,17 +171,6 @@
 
     <footer class="card__footer">
         
-<ul class="tags">
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/#Apache2/" class="tag__link" alt="#Apache2.">
-            ##Apache2
-        </a>
-    </li>
-    
-</ul>
-
 
     </footer>
 </article>
@@ -200,60 +178,37 @@
 	<article class="card">
     <header class="card__header">
         <h1 class="card__header__title">
-            <a href="/posts/ejercicio/ejercicios/" class="card__header__link" alt="Creación de un sitio web estático.">
-                Creación de un sitio web estático
+            <a href="/posts/vpn/vpn/" class="card__header__link" alt="VPN.">
+                VPN
             </a>
         </h1>
         
         
         <p class="card__header__date date">
-            Thursday, Oct, 2019 By Paloma R. García.
+            Monday, Dec, 2018 By Paloma R. García.
         </p>
         
         
     </header>
 
     <main class="card__body">
-        <ul>
-<li>Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.</li>
-</ul>
+        <ol>
+<li><p>Genera una clave privada RSA 4096
+Se crea una clave privada con openssl. Primero, como root, creamos una clave con el siguiente comando:</p>
 
-<p>Surge - Hugo</p>
+<pre><code>root@coatlicue:/home/paloma# openssl genrsa 4096 &gt; /etc/ssl/private/coatlicue.palomaGarcia.key
+</code></pre></li>
 
-<ul>
-<li>Comenta la instalación del generador de página estática. Recuerda que el generador tienes que instalarlo en tu entorno de desarrollo. Indica el lenguaje en el que está desarrollado y el sistema de plantillas que utiliza. (1 punto)</li>
-</ul>
+<li><p>Genera una solicitud de firma de certificado (fichero CSR) y súbelo a gestiona</p></li>
+</ol>
 
-<p>HUGO: Lenguaje: JavaScript. Sistema de plantillas: …</p>
+<p>Una vez creada la clave, hay que crear un fichero csr para que sea firmado por la CA Gonzalo Nazareno:</p>
+
+<pre><code>root@coatlicue:/home/paloma# openssl req -new -key …</code></pre>
     </main>
 
     <footer class="card__footer">
         
-<ul class="tags">
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/aplicaciones_web/" class="tag__link" alt="aplicaciones_web.">
-            #aplicaciones_web
-        </a>
-    </li>
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/ASIR/" class="tag__link" alt="ASIR.">
-            #ASIR
-        </a>
-    </li>
-    
-    
-    <li class="tags__tag">
-        <a href="/tags/Hugo/" class="tag__link" alt="Hugo.">
-            #Hugo
-        </a>
-    </li>
-    
-</ul>
-
 
     </footer>
 </article>
@@ -305,12 +260,23 @@
     <li class="page-item"><a class="page-link" href="/posts/page/3/">3</a></li>
     
     
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/posts/page/4/">4</a></li>
+    
+    
     <li class="page-item">
     <a href="/posts/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/posts/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/posts/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

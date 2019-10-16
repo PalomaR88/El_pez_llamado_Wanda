@@ -5,31 +5,10 @@
     <link>/tags/aplicaciones_web/</link>
     <description>Recent content in Aplicaciones_web on Un pez llamado Wanda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Oct 2019 22:21:42 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 17 Dec 2018 22:21:42 +0100</lastBuildDate>
     
 	<atom:link href="/tags/aplicaciones_web/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Creación de un sitio web estático</title>
-      <link>/posts/ejercicio/ejercicios/</link>
-      <pubDate>Thu, 03 Oct 2019 22:21:42 +0100</pubDate>
-      
-      <guid>/posts/ejercicio/ejercicios/</guid>
-      <description>Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.  Surge - Hugo
- Comenta la instalación del generador de página estática. Recuerda que el generador tienes que instalarlo en tu entorno de desarrollo. Indica el lenguaje en el que está desarrollado y el sistema de plantillas que utiliza. (1 punto)  HUGO: Lenguaje: JavaScript.</description>
-    </item>
-    
-    <item>
-      <title>Gestión de almacenamiento</title>
-      <link>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</link>
-      <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
-      
-      <guid>/posts/gestion_almacenamiento/gesti%C3%B3n-de-almacenamiento/</guid>
-      <description>Al diseñar una política de almacenamiento de la información hay que tener en cuenta el rendimiento, disponibilidad y accesibilidad.
-Almacenamientos secundarios:  Sist magnéticos Sist ópticos Sist de almacenamiento sólido  En la nube: Estos tipos están creciendo. Ventajas: actualización a tiempo real, acceso en cualquier lugar y bajos costes. Inconvenientes: seguridad y dependencia.
-Almacenamiento redundante, RAID: Conjunto de discos entre los que se distribuyen o se replican datos. Ventajas:</description>
-    </item>
     
     <item>
       <title>Instalacion_Debian</title>
@@ -37,8 +16,7 @@ Almacenamiento redundante, RAID: Conjunto de discos entre los que se distribuyen
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
       
       <guid>/posts/intalacion_debia/1.instalaci%C3%B3n_debian/</guid>
-      <description>Instalación de Debian
-El particionado debe hacerse en LVM.
+      <description>El particionado debe hacerse en LVM.
 Para extender volúmenes, si son volúmenes lógicos:
 lvresize -L+5G /dev/mapper/raiz  Repositorio necesario:
 deb.debian.org/debian/  </description>
@@ -50,7 +28,7 @@ deb.debian.org/debian/  </description>
       <pubDate>Mon, 17 Dec 2018 22:21:42 +0100</pubDate>
       
       <guid>/posts/redimensionar/2.redimensionar/</guid>
-      <description>REDIMENSIONAR Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152
+      <description>Creación del disco virtual Para saber los bloques: 1 GiB=2^30 bytes 1 bloque = 512 bytes = 2^9 bytes 2^30&amp;frasl;2^9 = 2^21 = 2097152
 Comando para crear el disco virtual
 dd if=/dev/zero of=disco-virtual.img bs=512 count=2097152  Respuesta: 2097152+0 registros leídos 2097152+0 registros escritos 1073741824 bytes (1,1 GB, 1,0 GiB) copied, 5,84997 s, 184 MB/s $ sudo losetup -vf disco-virtual.img We trust you have received the usual lecture from the local System Administrator.</description>
     </item>
