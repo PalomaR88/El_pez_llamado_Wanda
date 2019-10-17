@@ -129,6 +129,17 @@ deb.debian.org/debian/  </description>
     </item>
     
     <item>
+      <title>Instalación de un cliente remoto de Oracle Enterprise Manager</title>
+      <link>/posts/instalaci-n-oracle-enterprise-manager/oracle_enterprise_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/instalaci-n-oracle-enterprise-manager/oracle_enterprise_manager/</guid>
+      <description>Se va a comprobar el funcionamiento de Oracle Enterprise Manager de un servidor Oracle alojado en un Debian Jessie en un cliente remoto en Debian Buster.
+Configuración en el servidor Antes de empezar, hay que configurar las variables de entorno. Esta acción ya se realizó tras la instalación de Oracle, fondigurando el fichero /etc/bash.bashrc:
+## Nombre del equipo ## export ORACLE_HOSTNAME=localhost ## Usuario con permiso en archivos Oracle. ## export ORACLE_OWNER=oracle ## Directorio que almacenará los distintos servicios de Oracle.</description>
+    </item>
+    
+    <item>
       <title>Introducción a nginx</title>
       <link>/posts/servidor_web_gninx/introduccion_nginx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
