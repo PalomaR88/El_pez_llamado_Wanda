@@ -235,6 +235,17 @@ root@coatlicue:/home/paloma# openssl req -new -key /etc/ssl/private/coatlicue.</
     
     <item>
       <title>Vagrant</title>
+      <link>/posts/1.generador_pag_estatica/ejercicios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/1.generador_pag_estatica/ejercicios/</guid>
+      <description>1. Selecciona una combinación entre generador de páginas estáticas y servicio donde desplegar la página web. Escribe tu propuesta en redmine, cada propuesta debe ser original.
+Surge - Hugo  2. Comenta la instalación del generador de página estática. Recuerda que el generador tienes que instalarlo en tu entorno de desarrollo. Indica el lenguaje en el que está desarrollado y el sistema de plantillas que utiliza.
+HUGO: Lenguaje: Go. Sistema de plantillas: Go.</description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
       <link>/posts/vagrant/2.vagrant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
