@@ -250,9 +250,9 @@ HUGO: Lenguaje: Go. Sistema de plantillas: Go.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/vagrant/2.vagrant/</guid>
-      <description>Página oficial de Vagrant
+      <description>PRUEBA Página oficial de Vagrant
 Instalación de Vagrant (desarrollo de escenarios de forma fácil) $ vagrant box add debian/buster64  Por qué usar Vagrant: Por que es fácil, para automatizarlo.
-Qué se puede hacer:  Crear máquinas virtuales y contenedores. Configurar redes. Configurar la máquina Aprovisionamiento de la máquina  Imágenes de los sistemas operativos: Las imágenes en Vagrant se llaman BOX y lo que hace la aplicación es copiarlas. Existen repositorios de imágenes y es recomendable usar las imágenes oficiales.</description>
+Qué se puede hacer:  Crear máquinas virtuales y contenedores. Configurar redes. Configurar la máquina Aprovisionamiento de la máquina  Imágenes de los sistemas operativos: Las imágenes en Vagrant se llaman BOX y lo que hace la aplicación es copiarlas.</description>
     </item>
     
   </channel>
